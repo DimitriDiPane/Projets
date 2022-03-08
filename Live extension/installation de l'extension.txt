@@ -1,0 +1,6 @@
+Pour rajouter l'extension d'alerte de live:
+Après avoir décompresser le contenu du .rar.
+1. Accédez à chrome://extensions dans votre navigateur Google Chrome.
+2. Cochez la case « Mode développeur » dans le coin supérieur droit.
+3. Cliquez sur « Charger l’extension non empaquetée » qui affichera une boîte de dialogue de sélection de fichiers.
+4. Sélectionnez le répertoire de votre extension

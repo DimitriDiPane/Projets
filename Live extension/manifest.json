@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Joueur du grenier live alert extension",
+    "description": "Sois avertis lorsque le joueur du grenier est en live.",
+    "version": "1.0",
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "notifications"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "img/icon128.png"
+    },
+    "background": {
+        "scripts": ["js/jquery.js","js/background.js"]
+    }
+}
