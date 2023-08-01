@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="stemaCovers.exe" version="1.0.0.3" publicKeyToken="1146953f3e037336" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="stemaCovers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="stemaCovers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stemaCovers.exe" size="23992">
+      <assemblyIdentity name="stemaCovers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>egwLqTVDBcVI2li4RGVU5CfJREoWv1Iqp5IY5eWYUgE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Net.Http.Formatting.dll" size="179680">
+      <assemblyIdentity name="System.Net.Http.Formatting" version="5.2.9.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AGZBMLljrOXxJDrkeGkm6oG8GBCG/HFJ1hI1Z8ME01s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="stemaCovers.exe.config" size="542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rEVqtJLOKiRdiDLPL3p73O+9533hQWAnpvjWi3hi6cI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=FIXE-DIMI\Dimi" issuerKeyHash="3e8e42e0662be650952cf3d6236699b1a32e93a6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>r+YuHLB6UAqGAj5+cNurDBlw4iM1zz3dxbE7Yu9mHcA=</DigestValue></Reference></SignedInfo><SignatureValue>Fz/DRrN/xOZ42UhX7GthLGhzKZCLSfzzA3seYfN9LfKRim+3dnJJ+m+6HDRYiDlQv/0gwHVkl5b+OM5bOI4FYSulPXAkPANU29tAng1QIZStLRnyzRCYtw2TlfpdoaUIU/w7z09gHD8LuzGDWluyig7xXSc/lbh34g/tuSBGqW0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2GM6dJtZw1vIXJDnvyCf0qg2xVF1CQ5YjM45SVFsHKBcZGNb7DSoG4DlDE0KrurqbZTZiZeuvSg53ZWICJr2HQsbI7EEmJqTRrYUjmHIl6vVEU8MvK2NDqXf9mPYtG+RrkIWW1r8+YeBHQzURwLx2zfR2nmkJ6DxOGZUD/EJsLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c01d66ef623bb1c5dd3dcf3523e270190cabdb707e3e02860a507ab01c2ee6af" Description="" Url=""><as:assemblyIdentity name="stemaCovers.exe" version="1.0.0.3" publicKeyToken="1146953f3e037336" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FIXE-DIMI\Dimi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZWH5/gaQSNkixJ1GVITq7xKbV63Fz/h6V76wzRlwGeE=</DigestValue></Reference></SignedInfo><SignatureValue>OYksoH9U5wvvdC3LczLFsakLkakB3S2NTt48HJQE5lRKZDAPhFc+6KMXJj8BntKt23yFjsQ1L3nGiinvVaCZGPp0IenBqPfWVXJrJnFkkrc/B3zO9Ak311fjQRuCaoh/NMULXaC81cF+596wYna2JMr2vd+FiSjkgtX9ajn7GpU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2GM6dJtZw1vIXJDnvyCf0qg2xVF1CQ5YjM45SVFsHKBcZGNb7DSoG4DlDE0KrurqbZTZiZeuvSg53ZWICJr2HQsbI7EEmJqTRrYUjmHIl6vVEU8MvK2NDqXf9mPYtG+RrkIWW1r8+YeBHQzURwLx2zfR2nmkJ6DxOGZUD/EJsLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQHjwSRC6OAaJFjmvrk62f7zANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwARgBJAFgARQAtAEQASQBNAEkAXABEAGkAbQBpMB4XDTIzMDcxNTE2MDUwOFoXDTI0MDcxNDIyMDUwOFowJzElMCMGA1UEAx4cAEYASQBYAEUALQBEAEkATQBJAFwARABpAG0AaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2GM6dJtZw1vIXJDnvyCf0qg2xVF1CQ5YjM45SVFsHKBcZGNb7DSoG4DlDE0KrurqbZTZiZeuvSg53ZWICJr2HQsbI7EEmJqTRrYUjmHIl6vVEU8MvK2NDqXf9mPYtG+RrkIWW1r8+YeBHQzURwLx2zfR2nmkJ6DxOGZUD/EJsLkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCcNeKcCh5Y9IQQ00DD5Rxur2YD3XNE3b/0XeHV5doeatPyHhucdJ2Rpol6qvDb8iS6TB+OwdgFX44z/vUUR/lxMV58xGTUgk6IS03YxggbY76HnJCcEY14Ifu4vGV9BnS/jA6tJFsbCae69P6G8C/CuxYZQKKZfW0LcuT8yFcSUA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

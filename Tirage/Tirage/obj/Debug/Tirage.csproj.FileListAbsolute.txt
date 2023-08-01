@@ -1,0 +1,11 @@
+C:\Users\Dimi\Desktop\Tirage\Tirage\bin\Debug\Tirage.exe.config
+C:\Users\Dimi\Desktop\Tirage\Tirage\bin\Debug\Tirage.exe
+C:\Users\Dimi\Desktop\Tirage\Tirage\bin\Debug\Tirage.pdb
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.csproj.AssemblyReference.cache
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.Form1.resources
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.Properties.Resources.resources
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.csproj.GenerateResource.cache
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.csproj.CoreCompileInputs.cache
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.exe
+C:\Users\Dimi\Desktop\Tirage\Tirage\obj\Debug\Tirage.pdb
