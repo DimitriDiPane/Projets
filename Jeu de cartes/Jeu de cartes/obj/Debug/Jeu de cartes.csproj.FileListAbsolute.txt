@@ -1,0 +1,11 @@
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu de cartes.csproj.AssemblyReference.cache
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu de cartes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu_de_cartes.Form1.resources
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu_de_cartes.Properties.Resources.resources
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu de cartes.csproj.GenerateResource.cache
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu de cartes.csproj.CoreCompileInputs.cache
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\bin\Debug\Jeu de cartes.exe.config
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\bin\Debug\Jeu de cartes.exe
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\bin\Debug\Jeu de cartes.pdb
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu de cartes.exe
+C:\Users\Dimi\Documents\GitHub\Projets\Jeu de cartes\Jeu de cartes\obj\Debug\Jeu de cartes.pdb

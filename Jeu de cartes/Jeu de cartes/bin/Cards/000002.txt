@@ -1,0 +1,7 @@
+Gros Yeux du Jacuzzi
+Augmentez vos life points de 100 pour chaque monstre "Gros Yeux" sur le terrain
+3
+Aqua
+1000
+200
+Water
